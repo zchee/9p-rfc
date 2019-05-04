@@ -543,7 +543,7 @@ enum {
         QTEXCL =           0x20,
         QTMOUNT =          0x10,
         QTAUTH =           0x08,
-        QTTMP =	           0x04,
+        QTTMP =            0x04,
         QTLINK =           0x02,
         QTFILE =           0x00,
 };
