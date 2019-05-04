@@ -908,7 +908,7 @@ README                        xml2rfc v1.33                February 2008
    [3]  Crocker, D. and P. Overell, "Augmented BNF for Syntax
         Specifications: ABNF", RFC 4234, October 2005.
 
-   [4]   <http://xml.resource.org/>
+   [4]   <http://xml2rfc.tools.ietf.org/>
 
    [5]   <http://www.tcl.tk/software/tcltk/8.4.html>
 

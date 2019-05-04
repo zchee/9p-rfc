@@ -14,7 +14,7 @@
      Typical invocation:
        <!ENTITY % rfc2629-xhtml
                 PUBLIC "-//IETF//ENTITIES XHTML subset for RFC 2629//EN"
-                       "http://xml.resource.org/authoring/rfc2629-xhtml.ent">
+                       "http://xml2rfc.tools.ietf.org/authoring/rfc2629-xhtml.ent">
        %rfc2629-xhtml;
 -->
 

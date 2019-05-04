@@ -6,9 +6,9 @@
 # This is the approved "easy" way:
 #
 #wget -q -P rfc   -r -l 1 -A .xml -nd -N
-http://xml.resource.org/public/rfc/bibxml/
+http://xml2rfc.tools.ietf.org/public/rfc/bibxml/
 #wget -q -P draft -r -l 1 -A .xml -nd -N
-http://xml.resource.org/public/rfc/bibxml3/
+http://xml2rfc.tools.ietf.org/public/rfc/bibxml3/
 #
 # ...but it's incredibly painful to watch, because it spends an insane
 # amount of time and bandwidth sucking down stuff which it then
@@ -39,5 +39,5 @@ fetch_dir() {
 }
 
 cd $HOME/ietf/xml
-fetch_dir rfc   http://xml.resource.org/public/rfc/bibxml/
-fetch_dir draft http://xml.resource.org/public/rfc/bibxml3/
+fetch_dir rfc   http://xml2rfc.tools.ietf.org/public/rfc/bibxml/
+fetch_dir draft http://xml2rfc.tools.ietf.org/public/rfc/bibxml3/

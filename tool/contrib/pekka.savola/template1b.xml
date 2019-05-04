@@ -3,7 +3,7 @@
 <?xml-stylesheet type='text/xsl' href='rfc2629.xslt' ?>
 
 <!-- processing instructions (for a complete list and description,
-     see file http://xml.resource.org/authoring/README.html -->
+     see file http://xml2rfc.tools.ietf.org/authoring/README.html -->
 
     <!-- try to enforce the ID-nits conventions and DTD validity -->
 <?rfc strict="yes" ?>
@@ -108,17 +108,17 @@ make comments about the document.  It can also be used for
 <t>In this example, it is used as a handy place to specify URLs to
 documents and tools to author RFC-style documents using XML.</t>
 <t>RFC2629 is the original published document on authoring RFC-style
-documents in XML (http://xml.resource.org/public/rfc/html/rfc2629.html).
+documents in XML (http://xml2rfc.tools.ietf.org/public/rfc/html/rfc2629.html).
 It is being updated (and called RFC2629(bis) and is
-http://xml.resource.org/authoring/draft-mrose-writing-rfcs.html.
+http://xml2rfc.tools.ietf.org/authoring/draft-mrose-writing-rfcs.html.
 The tool to convert XML documents to RFC-style text (and HTML) files
-is described in document http://xml.resource.org/authoring/README.html.</t>
+is described in document http://xml2rfc.tools.ietf.org/authoring/README.html.</t>
 <t>Please also remember to check out
 http://www.ietf.org/ID-Checklist.html for issues to note when writing
 drafts.</t>
 <t>Remember, you don't need to have any other tools than a 'notepad'
 or your favorite editor to write xml2rfc drafts.  You can use the web
-interface at http://xml.resource.org for processing.  The benefit of using
+interface at http://xml2rfc.tools.ietf.org for processing.  The benefit of using
 XML editors is mostly catching those missing tags which the processor will
 warn you about, but you don't need to worry about the editors when getting
 started.</t>
@@ -304,8 +304,8 @@ level of the document in which they are used.
     <seriesInfo name='BCP' value='14' />
     <seriesInfo name='RFC' value='2119' />
     <format type='TXT' octets='4723' target='ftp://ftp.isi.edu/in-notes/rfc2119.txt' />
-    <format type='HTML' octets='14486' target='http://xml.resource.org/public/rfc/html/rfc2119.html' />
-    <format type='XML' octets='5661' target='http://xml.resource.org/public/rfc/xml/rfc2119.xml' />
+    <format type='HTML' octets='14486' target='http://xml2rfc.tools.ietf.org/public/rfc/html/rfc2119.html' />
+    <format type='XML' octets='5661' target='http://xml2rfc.tools.ietf.org/public/rfc/xml/rfc2119.xml' />
     </reference>
 
 </references>

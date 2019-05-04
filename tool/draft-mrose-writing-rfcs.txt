@@ -1424,7 +1424,7 @@ Rose                                                           [Page 25]
    extensions to XSLT.  For example, by including the line:
 
    <?xml-stylesheet type='text/xsl'
-                href='http://xml.resource.org/authoring/rfc2629.xslt' ?>
+                href='http://xml2rfc.tools.ietf.org/authoring/rfc2629.xslt' ?>
 
    after the XML declaration in your source file, IE6 will render the
    file as HTML.
@@ -1523,7 +1523,7 @@ Appendix B.  The DTD
 <!--
   Typical invocation:
       <!DOCTYPE rfc PUBLIC "-//IETF//DTD RFC 2629//EN"
-                "http://xml.resource.org/authoring/rfc2629.dtd" [
+                "http://xml2rfc.tools.ietf.org/authoring/rfc2629.dtd" [
         ... dtd subset ...
       ]>
     or
@@ -2227,9 +2227,9 @@ Rose                                                           [Page 39]
 
    [14]  <http://www.alphaworks.ibm.com/xml>
 
-   [15]  <http://xml.resource.org/>
+   [15]  <http://xml2rfc.tools.ietf.org/>
 
-   [16]  <http://xml.resource.org/authoring/rfc2629.xslt>
+   [16]  <http://xml2rfc.tools.ietf.org/authoring/rfc2629.xslt>
 
    [17]  <http://www.cs.Helsinki.FI/u/jjaakkol/sgrep.html>
 

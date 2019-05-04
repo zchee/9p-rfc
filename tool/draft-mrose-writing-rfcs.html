@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="description" content="Writing I-Ds and RFCs using XML (revised)">
 <meta name="keywords" content="RFC, Request for Comments, I-D, Internet-Draft, XML, Extensible Markup Language">
-<meta name="generator" content="xml2rfc v1.33 (http://xml.resource.org/)">
+<meta name="generator" content="xml2rfc v1.33 (http://xml2rfc.tools.ietf.org/)">
 <style type='text/css'><!--
         body {
                 font-family: verdana, charcoal, helvetica, arial, sans-serif;
@@ -1538,7 +1538,7 @@ there are validating parsers written in C, Perl, Python, and Tcl.
 Converting to Text Format</h3>
 
 <p>The author has written
-<a href='http://xml.resource.org/'>the xml2rfc tool</a>,
+<a href='http://xml2rfc.tools.ietf.org/'>the xml2rfc tool</a>,
 which reads the source file and produces both text, HTML, and nroff
 versions of the document.
 (This memo was produced using the xml2rfc tool.)
@@ -1560,14 +1560,14 @@ you can use an XSLT-capable formatter to convert an XML source file to
 HTML.
 </p>
 <p>Julian Reschke has written an
-<a href='http://xml.resource.org/authoring/rfc2629.xslt'>XSLT file</a>
+<a href='http://xml2rfc.tools.ietf.org/authoring/rfc2629.xslt'>XSLT file</a>
 for the format described in this memo.
 It requires one of the MSXML, Saxon, or Xalan extensions to XSLT.
 For example,
 by including the line:
 </p><div style='display: table; width: 0; margin-left: 3em; margin-right: auto'><pre>
 &lt;?xml-stylesheet type='text/xsl'
-             href='http://xml.resource.org/authoring/rfc2629.xslt' ?&gt;
+             href='http://xml2rfc.tools.ietf.org/authoring/rfc2629.xslt' ?&gt;
 </pre></div>
 <p>
 after the XML declaration in your source file,
@@ -1669,7 +1669,7 @@ The DTD</h3>
 &lt;!--
   Typical invocation:
       &lt;!DOCTYPE rfc PUBLIC "-//IETF//DTD RFC 2629//EN"
-                "http://xml.resource.org/authoring/rfc2629.dtd" [
+                "http://xml2rfc.tools.ietf.org/authoring/rfc2629.dtd" [
         ... dtd subset ...
       ]&gt;
     or
@@ -2194,7 +2194,7 @@ systems.
 <tr><td class="author-text" valign="top"><a name="W3C.REC-xml-20001006">[1]</a></td>
 <td class="author-text">Paoli, J., Maler, E., Bray, T., and C. Sperberg-McQueen, &ldquo;<a href="http://www.w3.org/TR/2000/REC-xml-20001006">Extensible Markup Language (XML) 1.0 (Second Edition)</a>,&rdquo; World Wide Web Consortium FirstEdition&nbsp;REC-xml-20001006, October&nbsp;2000 (<a href="http://www.w3.org/TR/2000/REC-xml-20001006">HTML</a>).</td></tr>
 <tr><td class="author-text" valign="top"><a name="RFC2223">[2]</a></td>
-<td class="author-text"><a href="mailto:Postel@ISI.EDU">Postel, J.</a> and <a href="mailto:jkrey@isi.edu">J. Reynolds</a>, &ldquo;<a href="http://tools.ietf.org/html/rfc2223">Instructions to RFC Authors</a>,&rdquo; RFC&nbsp;2223, October&nbsp;1997 (<a href="ftp://ftp.isi.edu/in-notes/rfc2223.txt">TXT</a>, <a href="http://xml.resource.org/public/rfc/html/rfc2223.html">HTML</a>, <a href="http://xml.resource.org/public/rfc/xml/rfc2223.xml">XML</a>).</td></tr>
+<td class="author-text"><a href="mailto:Postel@ISI.EDU">Postel, J.</a> and <a href="mailto:jkrey@isi.edu">J. Reynolds</a>, &ldquo;<a href="http://tools.ietf.org/html/rfc2223">Instructions to RFC Authors</a>,&rdquo; RFC&nbsp;2223, October&nbsp;1997 (<a href="ftp://ftp.isi.edu/in-notes/rfc2223.txt">TXT</a>, <a href="http://xml2rfc.tools.ietf.org/public/rfc/html/rfc2223.html">HTML</a>, <a href="http://xml2rfc.tools.ietf.org/public/rfc/xml/rfc2223.xml">XML</a>).</td></tr>
 <tr><td class="author-text" valign="top"><a name="RFC3978">[3]</a></td>
 <td class="author-text">Bradner, S., &ldquo;<a href="http://tools.ietf.org/html/rfc3978">IETF Rights in Contributions</a>,&rdquo; BCP&nbsp;78, RFC&nbsp;3978, March&nbsp;2005 (<a href="ftp://ftp.isi.edu/in-notes/rfc3978.txt">TXT</a>).</td></tr>
 <tr><td class="author-text" valign="top"><a name="RFC2026">[4]</a></td>
@@ -2202,11 +2202,11 @@ systems.
 <tr><td class="author-text" valign="top"><a name="RFC3667">[5]</a></td>
 <td class="author-text">Bradner, S., &ldquo;<a href="http://tools.ietf.org/html/rfc3667">IETF Rights in Contributions</a>,&rdquo; RFC&nbsp;3667, February&nbsp;2004 (<a href="ftp://ftp.isi.edu/in-notes/rfc3667.txt">TXT</a>).</td></tr>
 <tr><td class="author-text" valign="top"><a name="RFC2396">[6]</a></td>
-<td class="author-text"><a href="mailto:timbl@w3.org">Berners-Lee, T.</a>, <a href="mailto:fielding@ics.uci.edu">Fielding, R.</a>, and <a href="mailto:masinter@parc.xerox.com">L. Masinter</a>, &ldquo;<a href="http://tools.ietf.org/html/rfc2396">Uniform Resource Identifiers (URI): Generic Syntax</a>,&rdquo; RFC&nbsp;2396, August&nbsp;1998 (<a href="ftp://ftp.isi.edu/in-notes/rfc2396.txt">TXT</a>, <a href="http://xml.resource.org/public/rfc/html/rfc2396.html">HTML</a>, <a href="http://xml.resource.org/public/rfc/xml/rfc2396.xml">XML</a>).</td></tr>
+<td class="author-text"><a href="mailto:timbl@w3.org">Berners-Lee, T.</a>, <a href="mailto:fielding@ics.uci.edu">Fielding, R.</a>, and <a href="mailto:masinter@parc.xerox.com">L. Masinter</a>, &ldquo;<a href="http://tools.ietf.org/html/rfc2396">Uniform Resource Identifiers (URI): Generic Syntax</a>,&rdquo; RFC&nbsp;2396, August&nbsp;1998 (<a href="ftp://ftp.isi.edu/in-notes/rfc2396.txt">TXT</a>, <a href="http://xml2rfc.tools.ietf.org/public/rfc/html/rfc2396.html">HTML</a>, <a href="http://xml2rfc.tools.ietf.org/public/rfc/xml/rfc2396.xml">XML</a>).</td></tr>
 <tr><td class="author-text" valign="top"><a name="W3C.REC-xslt-19991116">[7]</a></td>
 <td class="author-text">Clark, J., &ldquo;<a href="http://www.w3.org/TR/1999/REC-xslt-19991116">XSL Transformations (XSLT) Version 1.0</a>,&rdquo; World Wide Web Consortium Recommendation&nbsp;REC-xslt-19991116, November&nbsp;1999 (<a href="http://www.w3.org/TR/1999/REC-xslt-19991116">HTML</a>).</td></tr>
 <tr><td class="author-text" valign="top"><a name="RFC2629">[8]</a></td>
-<td class="author-text"><a href="mailto:mrose@not.invisible.net">Rose, M.</a>, &ldquo;<a href="http://tools.ietf.org/html/rfc2629">Writing I-Ds and RFCs using XML</a>,&rdquo; RFC&nbsp;2629, June&nbsp;1999 (<a href="ftp://ftp.isi.edu/in-notes/rfc2629.txt">TXT</a>, <a href="http://xml.resource.org/public/rfc/html/rfc2629.html">HTML</a>, <a href="http://xml.resource.org/public/rfc/xml/rfc2629.xml">XML</a>).</td></tr>
+<td class="author-text"><a href="mailto:mrose@not.invisible.net">Rose, M.</a>, &ldquo;<a href="http://tools.ietf.org/html/rfc2629">Writing I-Ds and RFCs using XML</a>,&rdquo; RFC&nbsp;2629, June&nbsp;1999 (<a href="ftp://ftp.isi.edu/in-notes/rfc2629.txt">TXT</a>, <a href="http://xml2rfc.tools.ietf.org/public/rfc/html/rfc2629.html">HTML</a>, <a href="http://xml2rfc.tools.ietf.org/public/rfc/xml/rfc2629.xml">XML</a>).</td></tr>
 </table>
 <a name="rfc.index"></a><br /><hr />
 <table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>

@@ -12,7 +12,7 @@ exec tclsh "$0" "$0" "$@"
 global prog prog_version prog_url prog_ack
 set prog "xml2rfc"
 set prog_version "v1.33"
-set prog_url "http://xml.resource.org/"
+set prog_url "http://xml2rfc.tools.ietf.org/"
 set prog_ack \
 "This document was produced
 using $prog&nbsp;$prog_version (of %PROGURL%)

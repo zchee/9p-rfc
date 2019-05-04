@@ -70,7 +70,7 @@
 
 <t>If you don't want to install any software,
 you can use the
-<eref target='http://xml.resource.org/'>web-based service</eref>.</t>
+<eref target='http://xml2rfc.tools.ietf.org/'>web-based service</eref>.</t>
 </section>
 
 <section title='Requirements'>
@@ -476,7 +476,7 @@ set env(XML_LIBRARY) $library
 
 <t>There are links to various bibliographic databases (RFCs, I-Ds, and so on)
 on the <spanx style='strong'>xml2rfc</spanx>
-<eref target='http://xml.resource.org/'>homepage</eref>.</t>
+<eref target='http://xml2rfc.tools.ietf.org/'>homepage</eref>.</t>
 </section>
 </section>
 </section>
@@ -758,8 +758,8 @@ except when generating HTML.</t>
 
 <seriesInfo name='RFC' value='2234' />
 <format type='TXT' octets='24265' target='ftp://ftp.isi.edu/in-notes/rfc2234.txt' />
-<format type='HTML' octets='36695' target='http://xml.resource.org/public/rfc/html/rfc2234.html' />
-<format type='XML' octets='24067' target='http://xml.resource.org/public/rfc/xml/rfc2234.xml' />
+<format type='HTML' octets='36695' target='http://xml2rfc.tools.ietf.org/public/rfc/html/rfc2234.html' />
+<format type='XML' octets='24067' target='http://xml2rfc.tools.ietf.org/public/rfc/xml/rfc2234.xml' />
 </reference>
 
 <reference anchor='RFC4234'>

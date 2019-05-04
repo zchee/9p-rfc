@@ -6,7 +6,7 @@
 <!--
   Typical invocation:
       <!DOCTYPE rfc PUBLIC "-//IETF//DTD RFC 2629//EN"
-                           "http://xml.resource.org/authoring/rfc2629.dtd" [
+                           "http://xml2rfc.tools.ietf.org/authoring/rfc2629.dtd" [
         ... dtd subset ...
       ]>
     or
