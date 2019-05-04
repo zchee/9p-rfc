@@ -30,4 +30,4 @@ rfc9p2000.u.pdf: rfc9p2000.u.nr
 	
 
 clean:
-	rm -f *.txt *.html *.nr	*.ps *.pdf
+	rm -f rfc9p2000*.txt *.html *.nr	*.ps *.pdf
